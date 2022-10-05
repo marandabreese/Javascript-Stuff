@@ -4,3 +4,7 @@ function newFunction() {
 
     document.getElementById("cool_text").innerHTML = str+= strPart2; //prints the concatenated string
 }
+
+function nextStep() {
+    document.getElementById("secret_img").style.visibility = "visible";
+}
