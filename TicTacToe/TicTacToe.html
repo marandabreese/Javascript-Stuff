@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Making a Fun Game!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/game.css">
+        <script src="js/tictactoe.js"></script>
+    </head>
+    <body id="body">
+        <div class="center-container">
+            <h1>Welcome to the Game!</h1>
+            <canvas id="win-lines" width="608" height="608"></canvas>
+            <table>
+                <tr>
+                    <td id="0" onclick="placeTile('0')"></td>
+                    <td id="1" onclick="placeTile('1')"></td>
+                    <td id="2" onclick="placeTile('2')"></td>
+                </tr>
+                <tr>
+                    <td id="3" onclick="placeTile('3')"></td>
+                    <td id="4" onclick="placeTile('4')"></td>
+                    <td id="5" onclick="placeTile('5')"></td>
+                </tr>
+                <tr>
+                    <td id="6" onclick="placeTile('6')"></td>
+                    <td id="7" onclick="placeTile('7')"></td>
+                    <td id="8" onclick="placeTile('8')"></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
